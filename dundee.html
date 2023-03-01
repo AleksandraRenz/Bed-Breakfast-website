@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Blue Jay Bad & Breakfast</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Home</a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="rooms.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Rooms
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="glasgow.html">Glasgow Room</a>
+          <a class="dropdown-item" href="edinburgh.html">Edinburgh Room</a>
+          <a class="dropdown-item" href="aberdeen.html">Aberdeen Room</a>
+		  <a class="dropdown-item" href="dundee.html">Dundee Room</a>
+        </div>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+  
+  <form class="form-inline" align="right">
+    <a href="login.html" class="btn btn-sm btn-light" type="button">Login</a>
+  </form>
+  
+</nav>
+
+<div class="container">
+<!--	<img class="img-fluid" src="img/logo.png" alt="logo">       -->
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-lg-8 col-md-12">
+				<h1><span>Blue Jay</span> Bed & Breakfast</h1><br><br>
+				<p>Set in the beautiful Scottish Highland Town of Oban,<br> The Blue Jay Guest House has welcomed visitors to Oban<br> for the past 10 years.</p>
+			</div>
+			<div class="col-lg-4 col-md-12"><img class="img-fluid img-thumbnail" src="img/exterior.png" alt="picture of exterior"> 
+			</div>
+		</div>
+	</div>
+	
+	<div class="subcontainer">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12">
+				<div class="figure">
+					<img class="img-fluid img-thumbnail" src="img/dundee.jpg" alt="Dundee Room">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">	 
+				<h2>Dundee Room</h2><br>
+				<p>The Dundee Room is a light, airy comfortable double room with a <b>double bed </b>on the second floor overlooking the sea view. Recently refurbished and decorated the room has included in it:</p>
+				<table>
+					<tr><th><img src="img/fridge.svg" alt="icon of a fridge"></th><th>'micro kitchen' with fridge</th></tr>
+					<tr><th><img src="img/microwave.svg" alt="icon of a microwave"></th><th>microwave</th></tr>
+					<tr><th><img src="img/toaster.svg" width="25px" alt="icon of a toaster"></th><th>toaster</th></tr>
+					<tr><th><img src="img/kettle.svg" alt="icon of a kettle" width="25px"></th><th>kettle</th></tr> 
+					<tr><th><img src="img/tee.svg" alt="icon of a tee"></th><th>crockery and cutlery (tea, coffee, sugar and milk provided)</th></tr> 
+					<tr><th><img src="img/tv.svg" alt="icon of a tv"></th><th>Flatscreen Colour TV with Freeview</th></tr> 
+					<tr><th><img src="img/heat.svg" alt="icon of a central heating"></th><th>central heating</th></tr> 
+					<tr><th><img src="img/hairdryer2.svg" width="25px" alt="icon of a hairdryer"></th><th>hairdryer</th></tr> 
+					<tr><th><img src="img/alarm.svg" alt="icon of an alarm clock"></th><th>alarm clock</th></tr>  
+					<tr><th><img src="img/wifi.svg" alt="icon of a wifi"></th><th>Free Wifi </th></tr> 
+				</table>
+				<br>
+				<a href="bookingsys.html" class="btn btn-light">Book now</a>
+			</div>
+		</div>
+	</div>
+	
+	<button class="btn btn-light" onclick="window.print()">Print this page</button>
+	
+</div>
+
+<footer>
+		<div class="col-md-12 copy">
+			<p class="text-center">&copy; Copyright 2021 - Aleksandra Renz.  All rights reserved.</p>
+		</div>
+</footer>
+
+</body>
+</html>

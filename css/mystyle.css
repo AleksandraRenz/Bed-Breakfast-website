@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+/*  font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;       */
+ 
+ 
+
+ 
+body{
+	background-color:#A7C8F2;
+	margin:0;
+}
+  
+ 
+h1, h2, h5{
+	font-family: 'Playfair Display', serif; 
+	font-weight: bold;
+}
+
+h2, h5{
+	color: #888C1B;	
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+ }
+ 
+.navbar-expand-md{
+	background-color: #465725!important;
+	color: white!important;
+ }
+ 
+.jumbotron{
+	margin-top: 5em;
+	margin-bottom: 2em;
+	background-color: #888C1B;
+	color: white;
+	border-radius: 25px;
+ } 
+ 
+
+ /*
+.navbar-toggler-icon{
+	background-color: #888C1B;
+}
+ 
+ /*
+.a {
+	background-color: white!important;
+}
+*/
+
+ 
+.subcontainer{
+	background-color:white;
+	position: relative;
+    width: 100%;
+    padding: 15px;
+	margin-bottom: 25px;
+	border-radius: 25px;
+	
+ }
+ 
+
+.btn{
+	background-color: #888C1B;
+	color:white;
+}
+
+
+.video-container {
+	background-color:white;
+	position: relative;
+    width: 530px;
+    max-width: 100%;    
+    padding: 15px;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 25px;
+	min-width:0;	
+ }
+ 
+.embed-responsive-item {
+	width: 100vw;
+ }
+
+
+ 
+.figure {
+    position: relative;
+    max-width: 100%;
+}
+	
+.figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+    }
+	
+.figure:hover img.image-hover {
+    opacity: 1;
+    }
+
+
+
+#carousel {
+	width:2000px;
+	height:1000px;
+}
+  
+footer{
+	background-color: #465725;
+	color: white;
+	margin-top: 25px;
+	height: auto;
+ }
+   
+  
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+
+.footer-middle {
+	padding-top: 2em;
+}
+
+.copy {
+	font-size: 12px;
+	padding: 10px;
+	border-top: 1px solid #FFFFFF;
+}
+
+
+
+th {
+	min-width: 50px;
+}
+
+
+
+.form1 {
+	border-style: solid; 
+	border-color: #A7C8F2;
+	border-width: 5px;
+	width: 700px;
+	padding: 25px;
+	margin:auto;
+	border-radius: 25px;
+	min-height: 220px;
+}
